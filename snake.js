@@ -77,7 +77,7 @@ function Snake(level) {
 
   this.draw = function() {
     // sets the 'brush' color
-    fill(255);
+    fill(200);
 
     // draws the head
     rect(this.x, this.y, scl, scl);
